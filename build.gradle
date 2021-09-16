@@ -1,0 +1,11 @@
+plugins {
+    id 'application'
+}
+
+group 'com.jamz'
+version '0.1'
+
+repositories {
+    mavenCentral()
+}
+
