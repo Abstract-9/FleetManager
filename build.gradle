@@ -9,3 +9,6 @@ repositories {
     mavenCentral()
 }
 
+tasks.register("runAll") {
+    dependsOn('job-manager:run', 'drone-manager:run', 'flight-path-manager:run', 'landing-bay-manager:run')
+}
