@@ -1,12 +1,16 @@
 [submodule "drone-manager"]
 	path = drone-manager
 	url = git@gitlab.com:jamz-fleet-manager/drone-manager.git
+	branch = main
 [submodule "flight-path-manager"]
 	path = flight-path-manager
 	url = git@gitlab.com:jamz-fleet-manager/flight-path-manager.git
+	branch = main
 [submodule "job-manager"]
 	path = job-manager
 	url = git@gitlab.com:jamz-fleet-manager/job-manager.git
+	branch = main
 [submodule "landing-bay-manager"]
 	path = landing-bay-manager
 	url = git@gitlab.com:jamz-fleet-manager/landing-bay-manager.git
+	branch = main

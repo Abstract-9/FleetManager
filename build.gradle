@@ -10,5 +10,8 @@ repositories {
 }
 
 tasks.register("runAll") {
-    dependsOn('job-manager:run', 'drone-manager:run', 'flight-path-manager:run', 'landing-bay-manager:run')
+    dependsOn('job-manager:run')
+    dependsOn('drone-manager:run')
+    dependsOn('flight-path-manager:run')
+    dependsOn('landing-bay-manager:run')
 }
